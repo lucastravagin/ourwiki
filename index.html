@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Neon is a Responsive Bootstrap 4 Admin Dashboard Template">
+	<meta name="keywords"
+		content="admin template, dashboard template, ui kits, web app, bootstrap, html, css, xml, jQuery, JavaScript">
+	<meta name="author" content="ThemesBox">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+	<title>Evigg - Documentação</title>
+
+	<!-- Fevicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Start CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/prettify.css" />
+	<link href="assets/css/materialdesignicons.min.css" rel="stylesheet">
+	<link href="assets/css/styles.css" rel="stylesheet">
+	<!-- End CSS -->
+
+</head>
+
+<body>
+
+	<!-- Start navbar -->
+	<nav class="navbar navbar-default fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">OurWiki</a>
+			</div>
+		</div>
+	</nav>
+	<!-- End navbar -->
+
+	<!-- Start wrapper -->
+	<div id="wrapper">
+
+		<!-- Start XP Leftbar -->
+		<div id="xp-leftbar">
+			<ul class="xp-leftbar-menu">
+				<li>
+					<a href="#xp-introduction">Requisitos e Downloads</a>
+				</li>
+				<li>
+					<a href="#xp-file-folder-structure">Arquivos/ Estrutura</a>
+				</li>
+				<li>
+					<a href="#xp-bootstrap">Tabela de Diretórios</a>
+				</li>
+				<li>
+					<a href="#xp-html">Vídeo Demonstração</a>
+				</li>
+				<li>
+					<a href="#xp-css">Instalação Sql Server</a>
+				</li>
+				<li>
+					<a href="#xp-javascript">Conclusão da Instalação</a>
+				</li>
+			</ul>
+		</div>
+		<!-- End XP Leftbar -->
+
+		<!-- Start XP Page Container -->
+		<div id="xp-page-container">
+
+			<!-- Start Container Fluid -->
+			<div class="container-fluid">
+
+				<!-- Start Row -->
+				<div class="row">
+
+					<!-- Start Col -->
+					<div class="col-lg-12">
+
+						<!-- Start XP Right Bar -->
+						<div class="xp-rightbar">
+
+							<!-- Start XP Introduction -->
+							<div id="xp-introduction" class="pb-5">
+								<h3 class="page-header">Procedimento de Instalação <span class="text-primary">Software
+										Evigg</span></h3>
+								<h4 class="page-header">Requisitos e Downloads</h4>
+								<ul>
+									<li><strong>Windows XP, 7, 10 ou +</strong></li>
+									<li><strong>Download da pasta com os arquivos do Software</strong><a href=""> Clique
+											Aqui</a></li>
+								</ul>
+							</div>
+							<!-- End XP Introduction -->
+
+							<!-- Start XP File & Folder Structure -->
+							<div id="xp-file-folder-structure" class="pb-5">
+								<h4 class="page-header">Arquivos e Estrutura das pastas</h4>
+								<p>Descrição da estrutura das pastas baixadas no Google Drive para instalação do
+									Software.</p>
+
+								<div class="row">
+									<div class="col-sm-12">
+										<pre class="prettyprint">
+	<i class="mdi mdi-folder"></i> instalacao-evig/
+	 - <i class="mdi mdi-folder"></i> Banco de Dados Vazio (Novos Clientes)/ - Banco de Dados vazio para novo cliente
+	   	<i class="mdi mdi-file-multiple"></i> banco.bak
+	 - <i class="mdi mdi-folder"></i> BD Strings - Arquivos da String de Conexão dos clientes
+		<i class="mdi mdi-file-multiple"></i> banco.ini - Arquivo de Conexão do Sql Server
+		<i class="mdi mdi-file-multiple"></i> bancomy.dll - Arquivo de Conexão do Mysql para controle de licença
+	 - <i class="mdi mdi-folder"></i> Executável
+		<i class="mdi mdi-file-multiple"></i> sisnfe.exe
+	 - <i class="mdi mdi-folder"></i> Licencas
+		<i class="mdi mdi-file-multiple"></i> cnpj.lic - Arquivo que fica o CNPJ do cliente
+		<i class="mdi mdi-file-multiple"></i> licenca.lic - Arquivo que o HASH MD5 da licença
+	 - <i class="mdi mdi-folder"></i> SQL
+		 <i class="mdi mdi-file-multiple"></i> SQLServer2017-SSEI-Expr.exe - Executável do Sql Server
+	 - <i class="mdi mdi-folder"></i> software.rar
+	 - <i class="mdi mdi-folder"></i> eVigg.rar
+										</pre>
+									</div>
+								</div>
+							</div>
+							<!-- End XP File & Folder Structure -->
+
+							<!-- Start XP Bootstrap -->
+							<div id="xp-bootstrap" class="pb-5">
+								<h4 class="page-header">Tabela de Diretórios</h4>
+								<p>Após a realização do <strong>download</strong> os arquivos deverão ser colocados nas seguintes pastas</p>
+								<div class="table-responsive">
+									<table class="table table-bordered m-0">
+										<thead>
+											<tr>
+												<th style="width: 20%;"><i class="mdi mdi-file"></i> Arquivo</th>
+												<th>Colocar no diretório</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><code>software.rar</code></td>
+												<td>Extrair pasta no diretório C:\</td>
+											</tr>
+											<tr>
+												<td><code>eVigg.rar</code></td>
+												<td>Extrair pasta no diretório C:</td>
+											</tr>
+											<tr>
+												<td><code>banco.ini</code></td>
+												<td>Colocar arquivo no C:\software\eVigg</td>
+											</tr>
+											<tr>
+												<td><code>software.rar</code></td>
+												<td>Colocar arquivo no C:\software\eVigg</td>
+											</tr>
+											<tr>
+												<td><code>cnpj.lic</code></td>
+												<td>Colocar arquivo no C:\software\eVigg</td>
+											</tr>
+											<tr>
+												<td><code>licenca.lic</code></td>
+												<td>Colocar arquivo no C:\software\eVigg</td>
+											</tr>
+											<tr>
+												<td><code>sisnfe.exe</code></td>
+												<td>Colocar arquivo no C:\eVigg\SisNFe</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<!-- End XP Bootstrap -->
+
+							<!-- Start XP HTML -->
+							<div id="xp-html" class="pb-5">
+								<h4 class="page-header">Vídeo Demonstração</h4>
+								<p><strong>Neon</strong> Víde demonstrando como realizar a organização dos arquivos baixados no diretório.</p>
+								<iframe src="https://www.youtube.com/embed/SKstAwueyRU" width="100%" height="500" style="border: none"></iframe>
+							</div>
+							<!-- End XP HTML -->
+
+							<!-- Start XP CSS & SASS -->
+							<div id="xp-css" class="pb-5">
+								<h4 class="page-header">Instalação e Configuração do Sql Server</h4>
+								<p>Vídeo demonstrando como instalar e configurar o Sql Server
+								</p>
+								<iframe src="https://www.youtube.com/embed/SKstAwueyRU" width="100%" height="500" style="border: none"></iframe>
+							
+							</div>
+							<!-- End XP CSS & SASS -->
+
+							<!-- Start XP Javascript -->
+							<div id="xp-javascript" class="pb-5">
+								<h4 class="page-header">Conclusão da Instalação</h4>
+								<p><strong>Neon</strong> Neste vídeo vamos aprender a fazer a restauração do banco vazio, 
+									criar um novo cliente e testar o programa.</p>
+								
+								<iframe src="https://www.youtube.com/embed/SKstAwueyRU" width="100%" height="500" style="border: none"></iframe>
+								<p>Ir no Arquivo de Queries.txt e rodar essas Queries no Sql</p>	
+								<div class="table-responsive">
+									<table class="table table-bordered m-0">
+										<thead>
+											<tr>
+												<th style="width: 60%;"><i class="ti-file"></i> Query</th>
+												<th>Resultado</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><code>insert into CDEMPRES (CODIGO, NOMEABRE, RAZSOC, ENDERECO, NUMERO, BAIRRO, COMPLEND, CIDADE, UF, CEP, FONE, TELEX, INSCEST, CGC, SERIE, ESPECIE, S_N_CONTAB, SR_DELETED) 
+													values ('001', 'ALINEPIN', 'ALINE PINHEIRO SANTOS', 'AV PAULISTA', '1217', 'BELA VISTA', 'LOJA 114', 'SAO PAULO', 'SP', '01310-000', '1164275328',
+													'aline.pinheiro92@hotmail.com', '141540970115', '26697937000131', '1', '075', '2', '');
+													
+													</code></td>
+												<td>Trocar por dados do cliente.</td>
+											</tr>
+											<tr>
+												<td><code>insert into CDFILIAL (EMPRESA, CODIGO, NOME, CGC, ENDERECO, CIDADE, BAIRRO, UF, CEP, TELEFONE, ESTADUAL, 
+													NTC, NFCPT, NFNFT, REL_GER, COD_TABELA, AREA_CTB, EMPREGADO, NROCOMPLEM, NUMERO, SR_DELETED) 
+													values ('001', '000', 'ALINE PINHEIRO', '26697937000131', 'AV PAULISTA', 'SAO PAULO',
+													'BELA VISTA','SP','01310-000','1164275328','141540970115','P','50','50','S','001','0', '2', 'LOJA 114', '1217', '');</code></td>
+												<td>Trocar por dados dos clientes.</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<!-- End XP Javascript -->
+
+
+						</div>
+						<!-- End XP Right Bar -->
+
+						<!-- Start XP Footer Bar -->
+						<div class="xp-footerbar text-center">
+							<p class="pt-3 mb-0">© 2019 Ourcorp - Todos os direitos reservados.</a></p>
+						</div>
+						<!-- End XP Footer Bar -->
+
+					</div>
+					<!-- End Col -->
+
+				</div>
+				<!-- End Row -->
+
+			</div>
+			<!-- End Container Fluid -->
+
+		</div>
+		<!-- End XP Page Container -->
+
+	</div>
+	<!-- End wrapper -->
+
+	<!-- Start JS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="assets/js/prettify.js"></script>
+	<script>
+		$(function () {
+			$('.xp-leftbar-menu a').bind('click', function (event) {
+				var $anchor = $(this);
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top - 100
+				}, 1500, 'easeInOutExpo');
+				event.preventDefault();
+			});
+		});
+	</script>
+	<!-- End JS -->
+
+</body>
+
+</html>
